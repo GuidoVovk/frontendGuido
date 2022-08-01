@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=New+Tegomin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    
+}
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./imagen/fondo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+.banner p {
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.banner h1 span{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.boton-contacto:hover{
+    background-color: rgb(204, 182, 14);
+    font-weight: bold;
+}
+
+.cuerpo{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./imagen/via-lactea.jpg);
+}
+
+.sobre-mi p span{
+    letter-spacing: 5px;
+}
+
+
+.h2-estilo{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;   
+}
+
+
+.perfil-about img {
+    filter: grayscale(50%);
+    box-shadow: 10px 10px 20px black;
+    
+}
+
+.div-row {
+    box-shadow: 1px 1px 10px rgb(102, 102, 102); 
+}
+
+
+
+
+
